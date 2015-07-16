@@ -1,0 +1,24 @@
+<header>
+    <div class="header">
+            <a href="javascript:;" class="a-back" ng-click="back_btn()">返回</a>
+            <h2>选择模板</h2>
+    </div>
+</header>
+<section  id="wrapper" class="bj_img">
+      <div class="fodder_list">
+        <div ng-class="{'g-col':true,'first':$first}" ng-repeat="element in elements">
+            <a href="javascript:;" ng-click="show(element.fenxiangpic,element.varName,element.id)">
+                <div class="g-item-image"><img ng-src="{{element.imagePic}}"></div>
+                <div class="g-item-title f12">{{element.varName}}</div>
+            </a>
+        </div>
+        </div>
+</section> 
+<div class="hide inputName">
+    	<div class="layer-bj"></div>
+        <div class="layer">
+       	  <input ng-model="magazineName" class="layer-text" placeholder="请输入杂志名称（小于24个字符）">
+       	  <a ng-click="make(modelId,modelName,magazineName)" class="sub_link"><span>确定</span></a>
+        </div>
+</div>    
+

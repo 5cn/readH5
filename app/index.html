@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head ng-init="root.bk_color_swift=false">
+<meta charset="UTF-8">
+<title></title>
+<base href="http://mookservice.5.cn/createH5/">
+<!-- <link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" type="text/css" href="css/maga.min.css">
+<script>
+var ldzx=ldzx||{userId:null};(function(e,t){var n=e.documentElement,i="orientationchange"in window?"orientationchange":"resize",o=function(){var e=n.clientWidth;if(!e)return;n.style.fontSize=20*(e/320)+"px"};if(!e.addEventListener)return;t.addEventListener(i,o,false);e.addEventListener("DOMContentLoaded",o,false)})(document,window);var mengvalue=-1;var phoneWidth=parseInt(window.screen.width);var phoneScale=phoneWidth/640;var ua=navigator.userAgent;if(/Android (\d+\.\d+)/.test(ua)){var version=parseFloat(RegExp.$1);if(version>2.3){document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+", maximum-scale = "+phoneScale+', target-densitydpi=device-dpi">')}else{document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">')}}else{document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">')}ldzx.ctrl={_prevent:function(e){e.preventDefault()},stop:function(){$(window).on("touchmove.scroll",ldzx.ctrl._prevent);$(window).on("scroll.scroll",ldzx.ctrl._prevent)},start:function(){$(window).off("touchmove.scroll",ldzx.ctrl._prevent);$(window).off("scroll.scroll",ldzx.ctrl._prevent)}};
+</script>
+</head>
+<body>
+<div class="content" ng-view></div>
+<script src="js/init.min.js"></script>
+<!-- <script src="js/vender/zepto.min.js"></script>
+<script src="js/vender/touch.min.js"></script>
+<script src="js/vender/coffee.js"></script>
+<script src="js/vender/music.js"></script>
+<script src="js/vender/underscore.min.js"></script>
+<script src="js/vender/angular.min.js"></script>
+<script src="js/vender/angular-route.min.js"></script>
+<script src="js/vender/angular-touch.min.js"></script>
+<script src="js/controllers/controllers.js"></script>
+<script src="js/services/services.js"></script>
+<script src="js/directives/directives.js"></script>
+<script src="js/app.js"></script> -->
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F28d43317e8a419b40943c2a7906e7fd9' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

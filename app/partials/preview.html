@@ -1,0 +1,27 @@
+<header>
+    <div class="header">
+        <a class="a-back" ng-click="back();">返回</a>
+        <h2>{{name||'未命名'}}</h2>
+        <a class="a-r" ng-click="wechat();">发布</a>
+    </div>
+</header>
+<section class="bj_img" x-common-directive>
+    <div class="stage-box">
+        <div class="stage preview" x-cut2-directive>
+            <div class="page" ng-style="{{page.background.style}}" ng-repeat="page in pages track by $index" ng-class="{lottery:lottery,current:($index === state.active)}" id="{{page.uniqueId}}" x-lottery-directive>
+                <div ng-repeat="floatage in page.floatages" ng-style="{{floatage.style}}" class="s_floatage {{floatage.effects[0]}}" ng-class="{s_img:floatage.type === 'image'}" id="{{floatage.uniqueId}}">
+                    <img ng-src="{{floatage.src}}" ng-if="floatage.type === 'image'">
+                    <a ng-if="floatage.type === 'btn' " href="{{'http://'+floatage.href}}" target="_blank">{{floatage.value}}</a>
+                    <img ng-if="floatage.type === 'shape' " ng-src="{{floatage.src}}">
+                    <div ng-if="floatage.type === 'text' " class="{{floatage.type}}">
+                        <p ng-repeat="value in floatage.value track by $index">{{value}}</p>
+                    </div>
+                </div>
+            </div>
+            <music-directive ng-if="music.src"></music-directive>
+        </div>
+    </div>
+</section>
+<div class="revise">
+    <a ng-click="back();">修改</a>
+</div>

@@ -1,0 +1,64 @@
+<header>
+    <div class="header">
+        <a ng-click="back()" class="a-back">返回</a>
+        <h2>添加按钮</h2>
+        <a ng-click="yes()" class="a-r">完成</a>
+    </div>
+</header>
+<section class="bg_f6f6f5">
+    <div class="add_btn">
+        <div>
+            <input type="text" placeholder="请输入文字" class="add_btn_text" style="font-size:{{fontSize}}; border-radius:{{radius}}; background:{{backcolor}}; color:{{fontcolor}};"  ng-model="value">
+           
+        </div>
+        <div>
+            <input type="text" placeholder="http://www.5.cn/" class="add_btn_link" ng-model="href">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="edit_text_box" btn>
+        <div class="edit_box">
+            <div class="display_area"> 	
+            	  <div class="bj_color_box">
+                      <div class="bj_color_name">
+                      <span style="background:{{backcolor}}"></span>
+                      </div>
+                      <btn-drag-directive  my-data="colors" my-fn="backcolorFn(num)"></btn-drag-directive>    
+					
+                  </div>
+            </div>
+            <div class="display_area"> 	
+                    <div class="animation-parameters-set">
+                            <my-scroll maxnum="50" minnum="12" thisnum="fontSize"></my-scroll>
+                    </div>	
+            </div>
+            <div class="display_area"> 	
+                   <div class="bj_color_box">
+                      <div class="bj_color_name">
+                      <span ng-init="fontcolor = colors[0].val " style="background:{{fontcolor}}"></span>
+                      </div>
+                      <btn-drag-directive  my-data="colors" my-fn="fontcolorFn(num)"></btn-drag-directive>
+                  </div>
+            </div>
+            <div class="display_area"> 	
+                <div class="animation-parameters-set">
+                    <my-scroll maxnum="50" minnum="0" thisnum="radius"></my-scroll>
+                </div>  
+            </div>
+            <div class="display_area"> 	
+                    <div class="animation-parameters-set">
+                    
+                </div>  
+            </div>
+        </div>
+        <div class="edit_text_nav">
+            <div><a>颜色</a></div>
+            <div><a>字号</a></div>
+            <div><a>文字颜色</a></div>
+            <div><a>圆角</a></div>
+            <div><a>链接</a></div> 
+            <span></span>
+        </div>
+    </div>
+</footer>

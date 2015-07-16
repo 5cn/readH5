@@ -1,0 +1,162 @@
+<header>
+    <div class="header">{{window.location.href}}
+        <a class="a-back" ng-click="back();">返回</a>
+        <h2>{{name||'未命名'}}</h2>
+        <a class="a-r" ng-click="rest();">预览</a>
+    </div>
+</header>
+<section class="stage_bj" x-common-directive>
+    <div class="stage-box">
+        <div class="stage" x-cut2-directive>
+            <div class="page" ng-style="{{page.background.style}}" ng-repeat="page in pages track by $index" ng-class="{lottery:lottery,current:($index == state.active)}" x-lottery-directive id="{{page.uniqueId}}">
+                <div ng-repeat="floatage in page.floatages" ng-style="{{floatage.style}}" class="s_floatage {{floatage.effects[0]}}" ng-class="{s_img:floatage.type === 'image'}" x-cropper-directive id="{{floatage.uniqueId}}">
+                    <img ng-src="{{floatage.src}}" ng-if="floatage.type === 'image'">
+                    <a ng-if="floatage.type === 'btn' " href="{{'http://'+floatage.href}}" target="_blank" ng-style="{{floatage.style}}">{{floatage.value}}</a>
+                    <img ng-if="floatage.type === 'shape' " ng-src="{{floatage.src}}">
+                    <div ng-if="floatage.type === 'text' " class="{{floatage.type}}">
+                        <p ng-repeat="value in floatage.value track by $index">{{value}}</p>
+                    </div>
+                    <div ng-if="floatage.img_loading" class="img_loading"></div>
+                </div>
+                <span class="tip">{{($index+1)}}</span>
+            <div ng-if="page.img_loading" class="img_loading"></div>
+            </div>
+        </div>
+        <music-directive ng-if="music.src"></music-directive>
+    </div>
+</section>
+<footer>
+    <div class="stage-nav">
+        <a class="s-control-btn" ng-click="control()" ng-class="{switch:swift}"><i></i></a>
+        <div ng-class="{'s-c-b-list':true,hide:!swift}">
+            <div class="s-n-box">
+                <div>
+                    <a>
+                        <span ng-click="copyPage()">
+                            <i class="icon iconfont">&#xe609;</i>
+                            <p>复制</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <span ng-click="deletePage()">
+                            <i class="icon iconfont">&#xe677;</i>
+                            <p>删除</p>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div ng-class="{'s-c-b-list':true,hide:swift}" x-drag-x-directive>
+            <div class="s-edit-btn dragpro">
+                <div>
+                    <a ng-click="text();">
+                        <span>
+                            <i class="icon iconfont">&#xe62a;</i>
+                            <p>文本</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <span ng-click="bk_btn();">
+                            <i class="icon iconfont">&#xe6ce;</i>
+                            <p>背景</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <span ng-click="img_btn();">
+                           <i class="icon iconfont">&#xe629;</i>
+                           <p>图片</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a ng-click="lottery();">
+                        <span>
+                            <i class="icon iconfont">&#xe63d;</i>
+                            <p>涂抹</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a>
+                        <span ng-click="addPage()">
+                            <i class="icon iconfont">&#xe777;</i>
+                            <p>加页</p>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a ng-click="audio();">
+                        <span>
+                        <i class="icon iconfont">&#xe624;</i>
+                        <p>音乐</p>
+                    </span>
+                    </a>
+                </div>
+                <div>
+                    <a ng-click="hyperLink();">
+                        <span>
+                            <i class="icon iconfont">&#xe601;</i>
+                            <p>按钮</p>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="animation-operate" ng-class="{hide:true}">
+        <div class="animation-parameters">
+            <div class="item durationTime">
+                <div class="title">
+                    动画时间
+                </div>
+                <div class="animation-parameters-set" x-drag-set-directive x-defaultx="1.5" x-big="10" x-unit="S" x-type="duration">
+                </div>
+            </div>
+            <div class="item delayTime">
+                <div class="title">
+                    延时时间
+                </div>
+                <div class="animation-parameters-set" x-drag-set-directive x-defaultx="0" x-big="10" x-unit="S" x-type="delay">
+                </div>
+            </div>
+        </div>
+        <div class="animation-nav-btn">
+            <div class="clear-animation">
+                <div>
+                    <span></span>
+                    <em>清除动画</em>
+                </div>
+            </div>
+            <div class="animation-btn-list">
+                <div class="ani-btn">
+                    <div class="fadeInBtn">
+                        <span class="fadeIn"></span>
+                        <em>淡入</em>
+                    </div>
+                    <div class="fadeOutBtn">
+                        <span class="fadeOut"></span>
+                        <em>淡出</em>
+                    </div>
+                    <div class="amplifyBtn">
+                        <span class="amplify"></span>
+                        <em>放大</em>
+                    </div>
+                    <div class="rotationBtn">
+                        <span class="rotation"></span>
+                        <em>旋转</em>
+                    </div>
+                    <div class="shakeBtn">
+                        <span class="Shake"></span>
+                        <em>抖动</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,21 @@
+<header>
+    <div class="header">
+        <a class="a-back" ng-click="back();"><span></span><b>返回</b></a>
+        <a class="a-r" ng-click="rest();"><span>发布</span></a>
+    </div>
+</header>
+<section class="bj_img">
+    <div class="published">
+        <input type="text" placeholder="标题" class="p-title" ng-model="title">
+        <div class="p-box">
+            <a ng-click="upload();">
+                <div class="up_img">
+                </div>
+            </a>
+            <div class="share">
+                <textarea class="p-textarea" placeholder="分享信息" ng-model="con"></textarea>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- type="file" accept="image/*;capture=camera" -->

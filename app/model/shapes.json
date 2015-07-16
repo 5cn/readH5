@@ -1,0 +1,31 @@
+{
+    code: 200,
+    msg: "成功",
+    success: true,
+    obj: [{
+        func: "http://mookService.5.cn/image/group/images.json?type=1",
+        pid: 0,
+        name: "背景",
+        id: 1
+    }, {
+        func: "http://mookService.5.cn/image/group/images.json?type=2",
+        pid: 0,
+        name: "元素",
+        id: 2
+    }, {
+        func: "http://mookService.5.cn/image/group/images.json?type=3",
+        pid: 0,
+        name: "表情",
+        id: 3
+    }, {
+        func: "http://mookService.5.cn/image/group/images.json?type=4",
+        pid: 0,
+        name: "文字",
+        id: 4
+    }, {
+        func: "http://mookService.5.cn/image/group/images.json?type=5",
+        pid: 0,
+        name: "数据",
+        id: 5
+    }]
+}

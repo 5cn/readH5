@@ -1,0 +1,89 @@
+{
+    "obj": {
+        "id": "84009",
+        "wgUser": "",
+        "name": "",
+        "pageslist": [{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "http://img.5.cn/20150610/5b7a999c-6a0e-41ab-b7ce-54ed2d547918.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            },  {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "http://img.5.cn/20150610/f4029db8-583a-444b-a729-f5073e5ba2fb.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "100px",
+                "positionY": "100px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "img",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "http://img.5.cn/20150610/3741c05f-53a1-4092-b215-91ffe471b692.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "400px",
+                "positionY": "400px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "http://img.5.cn/20150610/cabd74cd-eb7c-4e03-95e8-3f085f1a085e.jpg",
+                    "type": ""
+                },
+                "id": 10
+            }
+        }]
+    }
+}

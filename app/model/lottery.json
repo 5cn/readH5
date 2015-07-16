@@ -1,0 +1,18 @@
+{
+	"imgs":[
+		{
+			"src": "img/img05.jpg",
+			"name":"名字1"
+		},
+		{
+			"src": "img/img05.jpg",
+			"name":"名字2"
+		},
+		{
+			"src": "img/img05.jpg",
+			"name":"名字3"
+		}
+	],
+	"show":false,
+	"column":["15%","30%","60%"]
+}

@@ -1,0 +1,40 @@
+<header>
+    <div class="header">
+        <a ng-click="back()" class="a-back">返回</a>
+        <h2>涂抹设置</h2>
+        <a ng-click="yes();back();" class="a-r">完成</a>
+    </div>
+</header>
+<section class="bg_f6f6f5">
+    <div class="daub">
+        <div>
+            <div class="daub-title">覆盖特效</div>
+            <div class="daub-r">
+                <div class="daub-name" ng-bind="lottery.this_effects"></div>
+                <div class="daub-img"  ng-click="lottery.show=!lottery.show" ng-class="{fan: lottery.show}">
+                    <img src="img/img05.jpg">
+                </div>
+            </div>
+            <div class="daub-img-list" ng-show="lottery.show">
+                <ul>
+                    <li ng-repeat="data in lottery.imgs" ng-click="choose($index)">
+                        <img ng-src="{{data.src}}">
+                        <span>{{data.name}}</span>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="daub-title">涂抹比例</div>
+            <div class="daub-r">
+                <span ng-repeat="i in lottery.column" ng-click="lottery.getthis($index)" ng-init="lottery.getthis(0)" ng-class="{active: lottery.act==$index}">{{i}}</span>
+            </div>
+        </div>
+        <div>
+            <div class="daub-title">提示文字</div>
+            <div class="daub-r">
+                <input type="text" placeholder="" class="daub-text" ng-model="content">
+            </div>
+        </div>
+    </div>
+</section>

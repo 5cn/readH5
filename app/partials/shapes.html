@@ -1,0 +1,22 @@
+<header>
+    <div class="header">
+        <a class="a-back" ng-click="back();"><span></span><b>返回</b></a>
+        <h2>素材库</h2>
+    </div>
+</header>
+<section class="bg_f6f6f5">
+    <div class="material-list">
+        <div class="nav-bj">
+            <nav>
+                <div ng-repeat="shapeType in shapeTypes" ng-class="{act:$index===current}" ng-click="request($index)">{{shapeType.name}}</div>
+            </nav>
+        </div>
+        <div class="material-list-img">
+            <ul>
+                <a ng-repeat="shape in shapes[current]" ng-click="toShape($index);">
+                    <li><img ng-src="{{shape.suolueUrl}}"></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</section>

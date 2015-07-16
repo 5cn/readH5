@@ -1,0 +1,205 @@
+{
+    wx:{
+        title:' 降低男性死亡率不想多活两年就别看！',
+        img:'http://img.800.cn/2015/05/13/f_555310285120f.jpg',
+        con:'降低男性死亡率的方法：请告诉你身边的男人！'
+    },
+    audio:{
+        src:'2.mp3',
+        name:'独家记忆'
+    },
+    magazine:{
+        'saved':10000,
+        'readed':100000000
+    },
+    user:{
+        'avatar':'img/user_img.jpg',
+        'liked':5201314,
+        'fans':11111,
+        'observers':123232,
+        'recommendUrl':'http://www.baidu.com',
+        'hotUrl':'http://www.baidu.com',
+        'newestUrl':'http://www.baidu.com',
+        'restMagazineUrl':'http://www.baidu.com',
+        'homeUrl':'http://www.baidu.com',
+        'downloadUrl':'http://www.baidu.com'
+    },
+    side:[
+            {
+                src:'img/1.png'
+            },
+            {
+                src:'img/2.png'
+            },
+            {
+                src:'img/3.png'
+            },
+            {
+                src:'img/4.png'
+            },
+            {
+                src:'img/5.png'
+            },
+            {
+                src:'img/6.png'
+            },
+            {
+                src:'img/7.png'
+            },
+            {
+                src:'img/8.png'
+            },
+            {
+                src:'img/9.png'
+            },
+            {
+                src:'img/10.png'
+            },
+            {
+                src:'img/11.png'
+            },
+            {
+                src:'img/12.png'
+            },
+            {
+                src:'img/13.png'
+            },
+            {
+                src:'img/14.png'
+            },
+            {
+                src:'img/15.png'
+            },
+            {
+                src:'img/16.png'
+            },
+            {
+                src:'img/17.png'
+            },
+            {
+                src:'img/18.png'
+            },
+            {
+                src:'img/19.png'
+            },
+            {
+                src:'img/20.png'
+            },
+            {
+                src:'img/21.png'
+            },
+            {
+                src:'img/22.png'
+            },
+            {
+                src:'img/23.png'
+            },
+            {
+                src:'img/24.png'
+            },
+            {
+                src:'img/25.png'
+            }
+        ],
+    pages: [{
+        className: 'm-page m-fengye f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/1.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/2.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/3.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/4.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/5.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/6.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/7.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/8.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/9.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/10.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/11.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/12.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/13.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/14.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/15.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/16.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/17.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/18.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/19.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/20.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/21.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/22.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/23.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/24.jpg'
+    }, {
+        className: 'm-page m-bigTxt f-hide',
+        conClassName: 'page-con lazy-img',
+        conBackground: 'img/25.jpg'
+    }]
+}

@@ -1,0 +1,18 @@
+<header>
+    <div class="header">
+        <a ng-click="back()" class="a-back">返回</a>
+        <h2>选择素材</h2>
+        <a ng-click="yes();back();" class="a-r">完成</a>
+    </div>
+</header>
+<section class="bj_white">
+    <div class="music-list" setmusic-directive >
+       	<dl>
+        	<dd id="music_null" ng-class="{act:currentId=='music_null'}">{{'无音乐'}} </dd>
+        </dl>
+        <dl ng-repeat="music in musics">
+            <dt>{{music.type}}</dt>
+            <dd ng-repeat="item in music.list" ng-class="{act:item.musicId == currentId}" ng-click="setMusic(item.id,item.src)" id="{{item.musicId}}">{{item.musicName}}</dd>
+        </dl>
+    </div>
+</section>

@@ -1,0 +1,157 @@
+{
+    "id": "",
+    "wgUser":"",
+    "name": "",
+    "magazine": {
+        "pageslist": [{
+            "pageNum": 1,
+            "elementsList": [{
+                "elementType": "image",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementChild": {
+                    "fillColor": "rgb(207, 205, 205)",
+                    "styleId": null,
+                    "height": "300px",
+                    "width": "300px"
+                },
+                "styles": [{
+                    "type": "action",
+                    "key": "fadeInNormal"
+                }, {
+                    "type": "shape",
+                    "key": "6"
+                }],
+                "opacityOpacity": "1",
+                "elementType": "shape",
+                "fillet": null,
+                "rotation": 0,
+                "positionX": "108px",
+                "positionY": "213px",
+                "shadow": null,
+                "id": 3
+            }, {
+                "elementChild": {
+                    "fontcolor": "rgb(117, 111, 111)",
+                    "fontsize": "40px",
+                    "backgroundcolor": "rgb(255, 255, 255)",
+                    "border": "rgb(175, 174, 174)",
+                    "borderstyle": "1px",
+                    "bordercrude": "solid",
+                    "height": 70,
+                    "width": 150,
+                    "url": "http://www.5.cn/",
+                    "context": "按钮"
+                },
+                "opacityOpacity": "1",
+                "elementType": "btn",
+                "fillet": "8px",
+                "rotation": null,
+                "positionX": "0px",
+                "positionY": "0px",
+                "shadow": "0px",
+                "id": 2
+            }, {
+                "elementChild": {
+                    "alignmentFunction": null,
+                    "fontsize": "26px",
+                    "border": null,
+                    "bordercrude": null,
+                    "borderStyle": null,
+                    "fontstyle": null,
+                    "color": "rgb(255, 255, 255)",
+                    "backgroundColor": "rgb(0, 0, 0)",
+                    "lineHeight": "1.5",
+                    "content": "岁暮阴阳催短景"
+                },
+                "styles": [{
+                    "type": "action",
+                    "key": "slideRight"
+                }],
+                "opacityOpacity": "1",
+                "elementType": "text",
+                "fillet": null,
+                "rotation": 0,
+                "positionX": "",
+                "positionY": "",
+                "shadow": null,
+                "id": 1
+            }, {
+                "elementType": "image",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img02.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }, {
+                "elementType": "image",
+                "elementChild": {
+                    "width": "200px",
+                    "height": "100px",
+                    "fillColor": "black",
+                    "image": {
+                        "url": "img/img03.jpg"
+                    }
+                },
+                "styles": [
+
+                ],
+                "pageId": "",
+                "opacityOpacity": 1,
+                "fillet": "",
+                "rotation": "",
+                "positionX": "10px",
+                "positionY": "10px",
+                "shadow": "",
+                "id": 3
+            }],
+            "backgroundImage": {
+                "fillcolor": "rgb(255,255,255)",
+                "pageId": "",
+                "fuzzy": 0,
+                "styles": [{
+                    "type": "action",
+                    "key": "sideLeft"
+                }],
+                "opacityOpacity": "1",
+                "image": {
+                    "url": "url()",
+                    "type": ""
+                },
+                "id": 10
+            }
+        }]
+    }
+}

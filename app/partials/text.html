@@ -1,0 +1,55 @@
+<header>
+    <div class="header">
+        <a ng-click="back()" class="a-back">返回</a>
+        <h2>编辑文本</h2>
+        <a ng-click="yes()" class="a-r">完成</a>
+    </div>
+</header>
+<section>
+    <div class="text_area">
+        <textarea ng-model="value" class="textarea"  placeholder="请输入您要编辑的内容" style="font-size:{{fontSize}}; background:{{backcolor}}; color:{{fontcolor}}; text-align:{{thisAlign}}; height:200px;"></textarea>
+    </div>
+</section>
+<footer>
+
+<div class="edit_text_box" btn>
+    <div class="edit_box">
+        <div class="display_area" >   
+                   <div class="text_align">
+                        <div ng-repeat="align in aligns" ng-click="setAligh($index)">{{align.name}}</div>
+                    
+                   </div>  
+            </div>
+            <div class="display_area" >   
+                <div class="animation-parameters-set">
+                            <my-scroll maxnum="50" minnum="12" thisnum="fontSize"></my-scroll>
+                    </div>
+            </div>
+            <div class="display_area">  
+                <div class="bj_color_box">
+                      <div class="bj_color_name" >
+                      	<span style="background:{{fontcolor}}"></span>
+                      </div>
+                      <btn-drag-directive  my-data="colors" my-fn="fontcolorFn(num)"></btn-drag-directive>    
+          
+                  </div>
+            </div>
+            <div class="display_area">  
+                <div class="bj_color_box">
+                      <div class="bj_color_name" >
+                      	<span style="background:{{backcolor}}"></span>
+                      </div>
+                      <btn-drag-directive  my-data="colors" my-fn="backcolorFn(num)"></btn-drag-directive>
+                  </div>   
+            </div>
+            
+        </div>
+    <div class="edit_text_nav">
+        <div><a>对齐</a></div>
+        <div><a>字号</a></div>
+        <div><a>颜色</a></div>
+        <div><a>背景</a></div>
+        <span></span>
+    </div>
+</div>
+</footer>

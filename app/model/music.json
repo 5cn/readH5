@@ -1,0 +1,56 @@
+﻿[{
+        "type": "动感",
+        "list": [{
+            "musicId": 1,
+            "musicName": "飞0",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 2,
+            "musicName": "飞飞0",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 3,
+            "musicName": "飞飞飞0",
+            "src":"img/1.mp3",
+            "switch":false
+        }]
+    }, {
+        "type": "动感",
+        "list": [{
+            "musicId": 4,
+            "musicName": "飞1",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 5,
+            "musicName": "飞飞1",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 6,
+            "musicName": "飞飞飞1",
+            "src":"img/1.mp3",
+            "switch":false
+        }]
+    }, {
+        "type": "动感1",
+        "list": [{
+            "musicId": 7,
+            "musicName": "飞2",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 8,
+            "musicName": "飞飞2",
+            "src":"img/1.mp3",
+            "switch":false
+        }, {
+            "musicId": 9,
+            "musicName": "飞飞飞2",
+            "src":"img/1.mp3",
+            "switch":false
+        }]
+    }
+]
