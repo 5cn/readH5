@@ -753,7 +753,7 @@
                     }
                     audio.load();
                     ele.find('#coffee_flow').coffee({
-                        steams              : ["<img src='http://www5.5.cn/Public/newimages/audio_widget_01@2x.png' />","<img src='http://www5.5.cn/Public/newimages/audio_widget_01@2x.png' />"], 
+                        steams              : ["<img src='img/audio_widget_01@2x.png' />","<img src='img/audio_widget_01@2x.png' />"], 
                         steamHeight         : 100,
                         steamWidth          : 44 
                     });

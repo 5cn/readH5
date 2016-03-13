@@ -62,7 +62,6 @@
                                 $scope.shapes=$scope.shapes||[];
                                 // $scope.shapes.splice(index,0,data.obj);
                                 $scope.shapes[index]=data.obj;
-                                console.log(data.obj)
                                 $scope.current=index;
                             }
                         });
@@ -148,7 +147,6 @@
                     })},
                     'success':function(data){
                         if(data.code==200){
-                            console.log('wechat success');
                             window.location.hash='draftBox';
                         }
                     },
@@ -192,14 +190,12 @@
             success(function(data){
                 if(data.code=200){
                     $scope.elements=data.obj;//远程读取页面数据
-					console.log(data)
 					data.obj.unshift({
 						imagePic:"img/img-default.jpg",
 						id:"0",
 						varName:"自定义模板",
                         order:0
 					});
-					console.log($scope.elements)
 
                 }
             });
@@ -219,6 +215,7 @@
             $scope.modelId=id;
             $scope.modelName=name;
             $scope.mubanId=mubanId;
+            window.__id=mubanId;
             //$(window).on('touchmove.scroll',$scope.controller);
         };
         $scope.make=function(modelId,modelName,magazineName){
@@ -242,7 +239,7 @@
 					
 				}else{
 					$.ajax({
-						url:'model/createMagazine.json',
+						url:'model/createMagazine'+$scope.mubanId+'.json',
 						data:{params:JSON.stringify({
 							name:$scope.magazineName,
 							uid:window.ldzx.userId||'135600',
@@ -289,15 +286,12 @@
         $scope.state={};
         $scope.state.active=newMaga.active;
         $scope.rest=function(){
-            var backMaga=transformDataProvider($scope); 
-            console.log(newMaga)           
-            console.log(backMaga);           
+            var backMaga=transformDataProvider($scope);        
             $.ajax({
                 'url':'http://172.16.168.251:8080/magazine_interface/inner/magazine/addOne.json',
                 'type':"POST",
                 'data':{'params':JSON.stringify(backMaga)},
                 'success':function(data){
-                    console.log('rest success');
                 }
             });
         };
@@ -337,15 +331,12 @@
         $scope.state.active=newMaga.active;
         window.magasProvider=window.magasProvider||magasProvider;//暴漏到root对象，ios和android调用
         function request(){
-            var backMaga=transformDataProvider(newMaga); 
-        console.log(newMaga)              
-        console.log(backMaga)              
+            var backMaga=transformDataProvider(newMaga);               
             $.ajax({
                 'url':'inner/magazine/addOne.json',
                 'type':"POST",
                 'data':{'params':JSON.stringify(backMaga)},
                 'success':function(data){
-                    console.log('rest success');
                 }
             });
         }
@@ -420,9 +411,9 @@
             $http({
                 method:'get',
                 // method:'get',
-                url:newMaga.modelUrl||'model/page/page.json',
-                // 'url':'model/page/page.json',
-                // params:{"params":JSON.stringify({"topicid":"84009"})}
+                // url:newMaga.modelUrl||'model/page/page.json',
+                'url':'model/page/magazine'+window.__id+'.json',
+                params:{"params":JSON.stringify({"topicid":"84009"})}
             }).
                 success(function(data){
                     if(!newMaga.pages[0]){//制作页面读取远程数据,生成第一页
@@ -506,9 +497,9 @@
         //         $scope.musics=data;
         //     });
         $.ajax({
-            'url':'mp3/list.json',
+            'url':'model/list.json',
             'dataType':'json',
-            'type':'post',
+            'type':'get',
             'data':{'type':'1'},
             'success':function(data){
                 var music=_.groupBy(data.obj,
@@ -658,8 +649,6 @@
         //增加一个漂浮物
         $scope.addFloatage=function(){
             var maga=magasProvider.getNewMaga();
-            console.log(maga.pages.length,maga.active)
-            console.log(maga.pages[maga.active])
             maga.pages[maga.active].floatages.push({
                 effects:[],
                 style:{

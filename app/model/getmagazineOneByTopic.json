@@ -1,0 +1,423 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "obj": {
+        "commentsnum": 0,
+        "createtime": 1434570747,
+        "fenxiangpic": "http://mookservice.5.cn/inner/magazine/page.json?mag=91685",
+        "id": 91685,
+        "imagePic": "http://img.800.cn/2015/06/17/s_558185adada16.png",
+        "ishide": 0,
+        "islook": 0,
+        "isold": 0,
+        "magId": 91794,
+        "pageslist": [{
+            "backgroundImage": {
+                "fillcolor": "none repeat scroll 0% 0% rgb(255, 255, 255)",
+                "id": 1,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "105px",
+                    "image": {
+                        "id": 1949,
+                        "sourceName": "1.1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/dd67924d-c768-4c92-9d59-44080d9d78ac.1.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/dd67924d-c768-4c92-9d59-44080d9d78ac.1.png"
+                    },
+                    "width": "581px"
+                },
+                "elementType": "img",
+                "height": "105px",
+                "id": 1,
+                "opacityOpacity": "",
+                "pageId": "1",
+                "positionX": "34px",
+                "positionY": "66px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "581px"
+            }, {
+                "elementChild": {
+                    "height": "768px",
+                    "image": {
+                        "id": 1950,
+                        "sourceName": "1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/9d0f6187-e4bd-4ddb-a9a0-f4729591797f.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/9d0f6187-e4bd-4ddb-a9a0-f4729591797f.png"
+                    },
+                    "width": "640px"
+                },
+                "elementType": "img",
+                "height": "768px",
+                "id": 2,
+                "opacityOpacity": "",
+                "pageId": "1",
+                "positionX": "0px",
+                "positionY": "192px",
+                "styles": [{
+                    "key": "flipInY",
+                    "type": "action"
+                }],
+                "width": "640px"
+            }],
+            "id": 1,
+            "pageNum": "1"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "none repeat scroll 0% 0% rgb(255, 255, 255)",
+                "id": 2,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "779px",
+                    "image": {
+                        "id": 1953,
+                        "sourceName": "2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/91de1777-4545-424a-8bc7-9b975f4bf1a9.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/91de1777-4545-424a-8bc7-9b975f4bf1a9.png"
+                    },
+                    "width": "507px"
+                },
+                "elementType": "img",
+                "height": "779px",
+                "id": 3,
+                "opacityOpacity": "",
+                "pageId": "2",
+                "positionX": "66px",
+                "positionY": "0px",
+                "styles": [{
+                    "key": "moveDown",
+                    "type": "action"
+                }],
+                "width": "507px"
+            }, {
+                "elementChild": {
+                    "height": "86px",
+                    "image": {
+                        "id": 1954,
+                        "sourceName": "2-1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/7abc5429-30c5-40c6-b569-ace3b2644459.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/7abc5429-30c5-40c6-b569-ace3b2644459.png"
+                    },
+                    "width": "359px"
+                },
+                "elementType": "img",
+                "height": "86px",
+                "id": 4,
+                "opacityOpacity": "",
+                "pageId": "2",
+                "positionX": "150px",
+                "positionY": "826px",
+                "styles": [{
+                    "key": "flipInY",
+                    "type": "action"
+                }],
+                "width": "359px"
+            }],
+            "id": 2,
+            "pageNum": "2"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "none repeat scroll 0% 0% rgb(255, 255, 255)",
+                "id": 3,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "284px",
+                    "image": {
+                        "id": 1957,
+                        "sourceName": "3.1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/3cacdc5a-21fc-4e50-914d-9063c4108f42.1.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/3cacdc5a-21fc-4e50-914d-9063c4108f42.1.png"
+                    },
+                    "width": "391px"
+                },
+                "elementType": "img",
+                "height": "284px",
+                "id": 5,
+                "opacityOpacity": "",
+                "pageId": "3",
+                "positionX": "230px",
+                "positionY": "50px",
+                "styles": [{
+                    "key": "slideDown",
+                    "type": "action"
+                }],
+                "width": "391px"
+            }, {
+                "elementChild": {
+                    "height": "284px",
+                    "image": {
+                        "id": 1958,
+                        "sourceName": "3.2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/aa2b0100-4ea8-47dc-855e-37eba5bcfae3.2.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/aa2b0100-4ea8-47dc-855e-37eba5bcfae3.2.png"
+                    },
+                    "width": "391px"
+                },
+                "elementType": "img",
+                "height": "284px",
+                "id": 6,
+                "opacityOpacity": "",
+                "pageId": "3",
+                "positionX": "230px",
+                "positionY": "338px",
+                "styles": [{
+                    "key": "slideDown",
+                    "type": "action"
+                }],
+                "width": "391px"
+            }, {
+                "elementChild": {
+                    "height": "284px",
+                    "image": {
+                        "id": 1959,
+                        "sourceName": "3.3.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/0e769914-2643-4403-9e92-519bcd821da7.3.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/0e769914-2643-4403-9e92-519bcd821da7.3.png"
+                    },
+                    "width": "391px"
+                },
+                "elementType": "img",
+                "height": "284px",
+                "id": 7,
+                "opacityOpacity": "",
+                "pageId": "3",
+                "positionX": "230px",
+                "positionY": "626px",
+                "styles": [{
+                    "key": "slideDown",
+                    "type": "action"
+                }],
+                "width": "391px"
+            }, {
+                "elementChild": {
+                    "height": "36px",
+                    "image": {
+                        "id": 1960,
+                        "sourceName": "3-1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/303852f2-a8ea-41c2-a2fa-c534f04c767d.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/303852f2-a8ea-41c2-a2fa-c534f04c767d.png"
+                    },
+                    "width": "108px"
+                },
+                "elementType": "img",
+                "height": "36px",
+                "id": 8,
+                "opacityOpacity": "",
+                "pageId": "3",
+                "positionX": "28px",
+                "positionY": "137px",
+                "styles": [{
+                    "key": "moveRight",
+                    "type": "action"
+                }],
+                "width": "108px"
+            }, {
+                "elementChild": {
+                    "height": "328px",
+                    "image": {
+                        "id": 1963,
+                        "sourceName": "3-2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/a74e0bf2-f8ec-45b0-a953-bbbc62999349.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/a74e0bf2-f8ec-45b0-a953-bbbc62999349.png"
+                    },
+                    "width": "187px"
+                },
+                "elementType": "img",
+                "height": "328px",
+                "id": 9,
+                "opacityOpacity": "",
+                "pageId": "3",
+                "positionX": "28px",
+                "positionY": "196px",
+                "styles": [{
+                    "key": "moveRight",
+                    "type": "action"
+                }],
+                "width": "187px"
+            }],
+            "id": 3,
+            "pageNum": "3"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "none repeat scroll 0% 0% rgb(255, 255, 255)",
+                "id": 4,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "414px",
+                    "image": {
+                        "id": 1969,
+                        "sourceName": "4.1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/db1b679f-824e-4dc9-9269-32dde2ea3668.1.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/db1b679f-824e-4dc9-9269-32dde2ea3668.1.png"
+                    },
+                    "width": "572px"
+                },
+                "elementType": "img",
+                "height": "414px",
+                "id": 10,
+                "opacityOpacity": "",
+                "pageId": "4",
+                "positionX": "35px",
+                "positionY": "48px",
+                "styles": [{
+                    "key": "pullDown",
+                    "type": "action"
+                }],
+                "width": "572px"
+            }, {
+                "elementChild": {
+                    "height": "414px",
+                    "image": {
+                        "id": 1970,
+                        "sourceName": "4.2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/e5de1ccb-465a-423f-a061-c7b40737087a.2.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/e5de1ccb-465a-423f-a061-c7b40737087a.2.png"
+                    },
+                    "width": "572px"
+                },
+                "elementType": "img",
+                "height": "414px",
+                "id": 11,
+                "opacityOpacity": "",
+                "pageId": "4",
+                "positionX": "35px",
+                "positionY": "470px",
+                "styles": [{
+                    "key": "pullDown",
+                    "type": "action"
+                }],
+                "width": "572px"
+            }],
+            "id": 4,
+            "pageNum": "4"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "none repeat scroll 0% 0% rgb(255, 255, 255)",
+                "id": 5,
+                "opacityOpacity": "1",
+                "styles": [{
+                    "key": "slideRight",
+                    "type": "action"
+                }]
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "818px",
+                    "image": {
+                        "id": 1973,
+                        "sourceName": "5.1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/6469c3c0-9036-414e-b24a-92209b861a95.1.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/6469c3c0-9036-414e-b24a-92209b861a95.1.png"
+                    },
+                    "width": "640px"
+                },
+                "elementType": "img",
+                "height": "818px",
+                "id": 12,
+                "opacityOpacity": "",
+                "pageId": "5",
+                "positionX": "0px",
+                "positionY": "0px",
+                "styles": [{
+                    "key": "zoomInDown",
+                    "type": "action"
+                }],
+                "width": "640px"
+            }, {
+                "elementChild": {
+                    "height": "130px",
+                    "image": {
+                        "id": 1972,
+                        "sourceName": "5.2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/fcc48a5b-5d5d-4883-ab55-5214aa2ecd69.2.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/fcc48a5b-5d5d-4883-ab55-5214aa2ecd69.2.png"
+                    },
+                    "width": "130px"
+                },
+                "elementType": "img",
+                "height": "130px",
+                "id": 13,
+                "opacityOpacity": "",
+                "pageId": "5",
+                "positionX": "270px",
+                "positionY": "746px",
+                "styles": [{
+                    "key": "rotateIn",
+                    "type": "action"
+                }],
+                "width": "130px"
+            }, {
+                "elementChild": {
+                    "height": "30px",
+                    "image": {
+                        "id": 1971,
+                        "sourceName": "5-5.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/b39897f1-febc-4b94-b09e-c41bc6cc6f54.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "http://img.5.cn/20150611/b39897f1-febc-4b94-b09e-c41bc6cc6f54.png"
+                    },
+                    "width": "289px"
+                },
+                "elementType": "img",
+                "height": "30px",
+                "id": 14,
+                "opacityOpacity": "",
+                "pageId": "5",
+                "positionX": "188px",
+                "positionY": "898px",
+                "styles": [{
+                    "key": "rotateIn",
+                    "type": "action"
+                }],
+                "width": "289px"
+            }],
+            "id": 5,
+            "pageNum": "5"
+        }],
+        "recommentsnum": 0,
+        "sound": "",
+        "status": 0,
+        "uid": 135603,
+        "userToRecomment": false,
+        "varName": "模板1",
+        "viewsnum": 557
+    },
+    "success": true
+}

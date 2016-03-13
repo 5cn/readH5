@@ -1,0 +1,623 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "obj": {
+        "commentsnum": 0,
+        "createtime": 1434571126,
+        "fenxiangpic": "http://mookservice.5.cn/inner/magazine/page.json?mag=91687",
+        "id": 91687,
+        "imagePic": "http://img.800.cn/2015/06/17/s_558186126abc9.jpg",
+        "ishide": 0,
+        "islook": 0,
+        "isold": 0,
+        "magId": 91796,
+        "pageslist": [{
+            "backgroundImage": {
+                "fillcolor": "rgb(255, 255, 255)",
+                "id": 18,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "841px",
+                    "image": {
+                        "id": 1979,
+                        "sourceName": "1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/d8471930-b0e3-43c7-ae80-558f403641d5.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/d8471930-b0e3-43c7-ae80-558f403641d5.png"
+                    },
+                    "width": "560px"
+                },
+                "elementType": "img",
+                "height": "841px",
+                "id": 78,
+                "opacityOpacity": "",
+                "pageId": "18",
+                "positionX": "40px",
+                "positionY": "80px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "560px"
+            }, {
+                "elementChild": {
+                    "height": "126px",
+                    "image": {
+                        "id": 1977,
+                        "sourceName": "103.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/8aad42b4-b365-4771-bdc4-1eb84b4f45ac.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/8aad42b4-b365-4771-bdc4-1eb84b4f45ac.png"
+                    },
+                    "width": "353px"
+                },
+                "elementType": "img",
+                "height": "126px",
+                "id": 79,
+                "opacityOpacity": "",
+                "pageId": "18",
+                "positionX": "240px",
+                "positionY": "768px",
+                "styles": [{
+                    "key": "lightSpeedIn",
+                    "type": "action"
+                }],
+                "width": "353px"
+            }, {
+                "elementChild": {
+                    "height": "73px",
+                    "image": {
+                        "id": 1976,
+                        "sourceName": "1.1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/d0415f96-92b0-4245-a91e-19342e598ee1.1.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/d0415f96-92b0-4245-a91e-19342e598ee1.1.png"
+                    },
+                    "width": "291px"
+                },
+                "elementType": "img",
+                "height": "73px",
+                "id": 80,
+                "opacityOpacity": "",
+                "pageId": "18",
+                "positionX": "40px",
+                "positionY": "85px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "291px"
+            }, {
+                "elementChild": {
+                    "height": "27px",
+                    "image": {
+                        "id": 1978,
+                        "sourceName": "2.2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/9146e7b5-ce96-43ec-9d95-877202a6c63d.2.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/9146e7b5-ce96-43ec-9d95-877202a6c63d.2.png"
+                    },
+                    "width": "560px"
+                },
+                "elementType": "img",
+                "height": "27px",
+                "id": 81,
+                "opacityOpacity": "",
+                "pageId": "18",
+                "positionX": "40px",
+                "positionY": "42px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "560px"
+            }],
+            "id": 18,
+            "pageNum": "1"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "rgb(255, 255, 255)",
+                "id": 19,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "148px",
+                    "image": {
+                        "id": 1984,
+                        "sourceName": "1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/8ba42250-3843-4c5e-ac61-037d4607dd49.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/8ba42250-3843-4c5e-ac61-037d4607dd49.png"
+                    },
+                    "width": "370px"
+                },
+                "elementType": "img",
+                "height": "148px",
+                "id": 82,
+                "opacityOpacity": "",
+                "pageId": "19",
+                "positionX": "127px",
+                "positionY": "75px",
+                "styles": [{
+                    "key": "flipInY",
+                    "type": "action"
+                }],
+                "width": "370px"
+            }, {
+                "elementChild": {
+                    "height": "275px",
+                    "image": {
+                        "id": 1982,
+                        "sourceName": "2.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/bf082a7a-d4d3-40bd-85d5-543caf99969e.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/bf082a7a-d4d3-40bd-85d5-543caf99969e.png"
+                    },
+                    "width": "275px"
+                },
+                "elementType": "img",
+                "height": "275px",
+                "id": 83,
+                "opacityOpacity": "",
+                "pageId": "19",
+                "positionX": "40px",
+                "positionY": "257px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "275px"
+            }, {
+                "elementChild": {
+                    "height": "275px",
+                    "image": {
+                        "id": 1981,
+                        "sourceName": "3.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/ed552376-6cfe-42eb-9d63-be3283686d42.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/ed552376-6cfe-42eb-9d63-be3283686d42.png"
+                    },
+                    "width": "275px"
+                },
+                "elementType": "img",
+                "height": "275px",
+                "id": 84,
+                "opacityOpacity": "",
+                "pageId": "19",
+                "positionX": "324px",
+                "positionY": "257px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "275px"
+            }, {
+                "elementChild": {
+                    "height": "275px",
+                    "image": {
+                        "id": 1980,
+                        "sourceName": "5.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/0f6f3074-9bb7-4715-84e2-cc5613be2b1f.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/0f6f3074-9bb7-4715-84e2-cc5613be2b1f.png"
+                    },
+                    "width": "275px"
+                },
+                "elementType": "img",
+                "height": "275px",
+                "id": 85,
+                "opacityOpacity": "",
+                "pageId": "19",
+                "positionX": "40px",
+                "positionY": "542px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "275px"
+            }, {
+                "elementChild": {
+                    "height": "275px",
+                    "image": {
+                        "id": 1983,
+                        "sourceName": "4.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/c2a64ede-632b-41c6-9dfb-725a4831180d.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/c2a64ede-632b-41c6-9dfb-725a4831180d.png"
+                    },
+                    "width": "275px"
+                },
+                "elementType": "img",
+                "height": "275px",
+                "id": 86,
+                "opacityOpacity": "",
+                "pageId": "19",
+                "positionX": "324px",
+                "positionY": "542px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "275px"
+            }, {
+                "elementChild": {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(0, 0, 0)",
+                    "content": "重返20岁##",
+                    "elementType": "text",
+                    "fontsize": "26px",
+                    "height": "auto",
+                    "id": 87,
+                    "lineHeight": "1.5",
+                    "opacityOpacity": "1",
+                    "pageId": "19",
+                    "positionX": "266px",
+                    "positionY": "866px",
+                    "rotation": "0",
+                    "styleid": "13b28569-64c7-4821-91d4-59ea1e4f7440",
+                    "width": "auto"
+                },
+                "elementType": "text",
+                "height": "auto",
+                "id": 87,
+                "opacityOpacity": "1",
+                "pageId": "19",
+                "positionX": "266px",
+                "positionY": "866px",
+                "rotation": "0",
+                "styles": [{
+                    "key": "moveRight",
+                    "type": "action"
+                }],
+                "width": "auto"
+            }, {
+                "elementChild": {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(0, 0, 0)",
+                    "content": "We see a movie together##",
+                    "elementType": "text",
+                    "fontsize": "26px",
+                    "height": "auto",
+                    "id": 88,
+                    "lineHeight": "1.5",
+                    "opacityOpacity": "1",
+                    "pageId": "19",
+                    "positionX": "178px",
+                    "positionY": "906px",
+                    "rotation": "0",
+                    "styleid": "398fd8ed-3772-4301-b00b-c2e71f61b447",
+                    "width": "auto"
+                },
+                "elementType": "text",
+                "height": "auto",
+                "id": 88,
+                "opacityOpacity": "1",
+                "pageId": "19",
+                "positionX": "178px",
+                "positionY": "906px",
+                "rotation": "0",
+                "styles": [{
+                    "key": "moveLeft",
+                    "type": "action"
+                }],
+                "width": "auto"
+            }],
+            "id": 19,
+            "pageNum": "2"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "rgb(255, 255, 255)",
+                "id": 20,
+                "image": {
+                    "id": 1956,
+                    "sourceName": "3.jpg",
+                    "suolueUrl": "http://img.5.cn/20150611_suolue/ad68db6a-866d-42da-8b2d-5dfd0f30a7a3.jpg",
+                    "type": 0,
+                    "uid": 0,
+                    "url": "img/web/magazine2/ad68db6a-866d-42da-8b2d-5dfd0f30a7a3.jpg"
+                },
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "248px",
+                    "image": {
+                        "id": 1988,
+                        "sourceName": "5.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/fa0f4a88-fec1-431f-affb-966c0dfb95a2.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/fa0f4a88-fec1-431f-affb-966c0dfb95a2.png"
+                    },
+                    "width": "350px"
+                },
+                "elementType": "img",
+                "height": "248px",
+                "id": 89,
+                "opacityOpacity": "",
+                "pageId": "20",
+                "positionX": "270px",
+                "positionY": "80px",
+                "styles": [{
+                    "key": "slideLeft",
+                    "type": "action"
+                }],
+                "width": "350px"
+            }, {
+                "elementChild": {
+                    "height": "246px",
+                    "image": {
+                        "id": 1987,
+                        "sourceName": "6.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/e83f8dce-5de4-49ce-8f37-310d8054ca16.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/e83f8dce-5de4-49ce-8f37-310d8054ca16.png"
+                    },
+                    "width": "350px"
+                },
+                "elementType": "img",
+                "height": "246px",
+                "id": 90,
+                "opacityOpacity": "",
+                "pageId": "20",
+                "positionX": "270px",
+                "positionY": "338px",
+                "styles": [{
+                    "key": "slideLeft",
+                    "type": "action"
+                }],
+                "width": "350px"
+            }, {
+                "elementChild": {
+                    "height": "244px",
+                    "image": {
+                        "id": 1986,
+                        "sourceName": "7.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/871b418f-45f3-4307-b106-5c3bc43d573d.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/871b418f-45f3-4307-b106-5c3bc43d573d.png"
+                    },
+                    "width": "350px"
+                },
+                "elementType": "img",
+                "height": "244px",
+                "id": 91,
+                "opacityOpacity": "",
+                "pageId": "20",
+                "positionX": "270px",
+                "positionY": "593px",
+                "styles": [{
+                    "key": "slideLeft",
+                    "type": "action"
+                }],
+                "width": "350px"
+            }, {
+                "elementChild": {
+                    "height": "49px",
+                    "image": {
+                        "id": 1985,
+                        "sourceName": "3.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/ce26aca0-cfb5-424b-bb42-ac0daf249b0b.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/ce26aca0-cfb5-424b-bb42-ac0daf249b0b.png"
+                    },
+                    "width": "235px"
+                },
+                "elementType": "img",
+                "height": "49px",
+                "id": 92,
+                "opacityOpacity": "",
+                "pageId": "20",
+                "positionX": "386px",
+                "positionY": "912px",
+                "styles": [{
+                    "key": "rotateIn",
+                    "type": "action"
+                }],
+                "width": "235px"
+            }, {
+                "elementChild": {
+                    "height": "49px",
+                    "image": {
+                        "id": 1985,
+                        "sourceName": "3.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/ce26aca0-cfb5-424b-bb42-ac0daf249b0b.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/ce26aca0-cfb5-424b-bb42-ac0daf249b0b.png"
+                    },
+                    "width": "235px"
+                },
+                "elementType": "img",
+                "height": "49px",
+                "id": 93,
+                "opacityOpacity": "",
+                "pageId": "20",
+                "positionX": "386px",
+                "positionY": "912px",
+                "styles": [{
+                    "key": "rotateIn",
+                    "type": "action"
+                }],
+                "width": "235px"
+            }, {
+                "elementChild": {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(0, 0, 0)",
+                    "content": "当你爱一个人##的时候你就应##该说出来。##",
+                    "elementType": "text",
+                    "fontsize": "26px",
+                    "height": "auto",
+                    "id": 94,
+                    "lineHeight": "1.5",
+                    "opacityOpacity": "1",
+                    "pageId": "20",
+                    "positionX": "50px",
+                    "positionY": "180px",
+                    "rotation": "0",
+                    "styleid": "cd990bab-a137-467b-8c89-0838ba0d66db",
+                    "width": "auto"
+                },
+                "elementType": "text",
+                "height": "auto",
+                "id": 94,
+                "opacityOpacity": "1",
+                "pageId": "20",
+                "positionX": "50px",
+                "positionY": "180px",
+                "rotation": "0",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "auto"
+            }, {
+                "elementChild": {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(0, 0, 0)",
+                    "content": "生命只是时间##中的一个停顿##一切的意义都##只在它发生的##那一时刻。##",
+                    "elementType": "text",
+                    "fontsize": "26px",
+                    "height": "auto",
+                    "id": 95,
+                    "lineHeight": "1.5",
+                    "opacityOpacity": "1",
+                    "pageId": "20",
+                    "positionX": "50px",
+                    "positionY": "360px",
+                    "rotation": "0",
+                    "styleid": "ebe01d32-afc9-4fad-8977-fa9595e5ee3e",
+                    "width": "auto"
+                },
+                "elementType": "text",
+                "height": "auto",
+                "id": 95,
+                "opacityOpacity": "1",
+                "pageId": "20",
+                "positionX": "50px",
+                "positionY": "360px",
+                "rotation": "0",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "auto"
+            }, {
+                "elementChild": {
+                    "backgroundColor": "transparent",
+                    "color": "rgb(0, 0, 0)",
+                    "content": "不要等。不要##在以后讲这个##故事。##",
+                    "elementType": "text",
+                    "fontsize": "26px",
+                    "height": "auto",
+                    "id": 96,
+                    "lineHeight": "1.5",
+                    "opacityOpacity": "1",
+                    "pageId": "20",
+                    "positionX": "50px",
+                    "positionY": "630px",
+                    "rotation": "0",
+                    "styleid": "57125432-dc3b-40bb-9ed5-1721b3172816",
+                    "width": "auto"
+                },
+                "elementType": "text",
+                "height": "auto",
+                "id": 96,
+                "opacityOpacity": "1",
+                "pageId": "20",
+                "positionX": "50px",
+                "positionY": "630px",
+                "rotation": "0",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "auto"
+            }],
+            "id": 20,
+            "pageNum": "3"
+        }, {
+            "backgroundImage": {
+                "fillcolor": "rgb(255, 255, 255)",
+                "id": 21,
+                "opacityOpacity": "1"
+            },
+            "elementsList": [{
+                "elementChild": {
+                    "height": "338px",
+                    "image": {
+                        "id": 1989,
+                        "sourceName": "22.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/f7c33a20-811a-4180-a25f-b34d75671a7f.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/f7c33a20-811a-4180-a25f-b34d75671a7f.png"
+                    },
+                    "width": "68px"
+                },
+                "elementType": "img",
+                "height": "338px",
+                "id": 97,
+                "opacityOpacity": "",
+                "pageId": "21",
+                "positionX": "284px",
+                "positionY": "528px",
+                "styles": [{
+                    "key": "fadeInNormal",
+                    "type": "action"
+                }],
+                "width": "68px"
+            }, {
+                "elementChild": {
+                    "height": "459px",
+                    "image": {
+                        "id": 1990,
+                        "sourceName": "1.png",
+                        "suolueUrl": "http://img.5.cn/20150611_suolue/789b6dcb-8ac4-450d-bdef-7876a733ccac.png",
+                        "type": 0,
+                        "uid": 0,
+                        "url": "img/web/magazine2/789b6dcb-8ac4-450d-bdef-7876a733ccac.png"
+                    },
+                    "width": "459px"
+                },
+                "elementType": "img",
+                "height": "459px",
+                "id": 98,
+                "opacityOpacity": "",
+                "pageId": "21",
+                "positionX": "90px",
+                "positionY": "78px",
+                "styles": [{
+                    "key": "slideDown",
+                    "type": "action"
+                }],
+                "width": "459px"
+            }],
+            "id": 21,
+            "pageNum": "4"
+        }],
+        "recommentsnum": 0,
+        "sound": "",
+        "status": 0,
+        "uid": 135603,
+        "userToRecomment": false,
+        "varName": "模板2",
+        "viewsnum": 399
+    },
+    "success": true
+}
