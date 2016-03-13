@@ -30,7 +30,7 @@
         $scope.shapes=$scope.shapes||[];
         $http({
             method:'get',
-            url:'http://mookservice.5.cn/image/group/list.json',
+            url:'image/group/list.json',
         }).
             success(function(data){
                 if(data.code===200){
@@ -128,7 +128,7 @@
                 // alert(4)
                 // var backMaga=transformDataProvider(maga);           
                 // $.ajax({
-                //     'url':'http://mookservice.5.cn/inner/magazine/addOne.json',
+                //     'url':'inner/magazine/addOne.json',
                 //     'type':"POST",
                 //     'data':{'params':JSON.stringify(backMaga)},
                 //     'success':function(data){
@@ -137,7 +137,7 @@
                 // });
                 //zid type must be string
                 $.ajax({
-                    'url':'http://mookservice.5.cn/inner/magazine/publishImg.json',
+                    'url':'inner/magazine/publishImg.json',
                     'type':"post",
                     'dataType':'json',
                     'data':{'params':JSON.stringify({
@@ -186,13 +186,13 @@
     function selectController($scope,$routeParams,magaProvider,$rootScope,magasProvider,$http){
         $http({
                 method:'GET',
-                url:'http://mookservice.5.cn/inner/magazine/getModel.json',
-                // url:'model/model.json'
+                url:'inner/magazine/getModel.json',
+                url:'model/getModel.json'
             }).
             success(function(data){
                 if(data.code=200){
                     $scope.elements=data.obj;//远程读取页面数据
-					
+					console.log(data)
 					data.obj.unshift({
 						imagePic:"img/img-default.jpg",
 						id:"0",
@@ -242,14 +242,14 @@
 					
 				}else{
 					$.ajax({
-						url:'http://mookservice.5.cn/inner/magazine/createMagazine.json',
+						url:'model/createMagazine.json',
 						data:{params:JSON.stringify({
 							name:$scope.magazineName,
 							uid:window.ldzx.userId||'135600',
 							classification:'10301'
 						})},
 						dataType:'json',
-						type:'post',
+						type:'get',
 						success:function(data){
 							if(data.code==200){
 								var newMaga=new magaProvider;
@@ -341,7 +341,7 @@
         console.log(newMaga)              
         console.log(backMaga)              
             $.ajax({
-                'url':'http://mookservice.5.cn/inner/magazine/addOne.json',
+                'url':'inner/magazine/addOne.json',
                 'type':"POST",
                 'data':{'params':JSON.stringify(backMaga)},
                 'success':function(data){
@@ -358,7 +358,7 @@
             // var backMaga=transformDataProvider(newMaga); 
             // // console.log($scope)           
             // $.ajax({
-            //     // 'url':'http://mookservice.5.cn/inner/magazine/addOne.json',
+            //     // 'url':'inner/magazine/addOne.json',
             //     'url':'model/page.json',
             //     'type':"POST",
             //     'data':{'params':JSON.stringify(backMaga)},
@@ -438,7 +438,7 @@
                 });
         }
         // $.ajax({
-        //     url:'http://mookservice.5.cn/inner/magazine/getmagazineOneByTopic.json',
+        //     url:'inner/magazine/getmagazineOneByTopic.json',
         //     type:'post',
         //     dataType:'json',
         //     data:{"params":JSON.stringify({"topicid":"84009"})},
@@ -506,7 +506,7 @@
         //         $scope.musics=data;
         //     });
         $.ajax({
-            'url':'http://mookservice.5.cn/mp3/list.json',
+            'url':'mp3/list.json',
             'dataType':'json',
             'type':'post',
             'data':{'type':'1'},
